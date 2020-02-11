@@ -1,0 +1,21 @@
+services:
+  app:
+    build:
+      context: C:\Users\celo-\Documents\Projetos\PocGraphicQL
+      dockerfile: PocGraphicQL/Dockerfile
+    depends_on:
+    - database
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: pocgraphicql
+    ports:
+    - target: 80
+  database:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: <YourStrong@Passw0rd>
+    image: mcr.microsoft.com/mssql/server:2019-GA-ubuntu-16.04
+    ports:
+    - published: 1433
+      target: 1433
+version: '3.4'

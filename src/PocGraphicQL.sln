@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PocGraphicQL", "PocGraphicQL\PocGraphicQL.csproj", "{B9545489-0A6B-4598-B17B-C53EC90B887B}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{5604BC5E-DE16-405C-8FC4-52971B37E383}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9545489-0A6B-4598-B17B-C53EC90B887B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9545489-0A6B-4598-B17B-C53EC90B887B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9545489-0A6B-4598-B17B-C53EC90B887B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9545489-0A6B-4598-B17B-C53EC90B887B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5604BC5E-DE16-405C-8FC4-52971B37E383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5604BC5E-DE16-405C-8FC4-52971B37E383}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5604BC5E-DE16-405C-8FC4-52971B37E383}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5604BC5E-DE16-405C-8FC4-52971B37E383}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFFC0DC6-1EAF-496C-9842-3B0765DD661B}
+	EndGlobalSection
+EndGlobal
